@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="MenuApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <ui-view></ui-view>
+    <loading-spinner></loading-spinner>
+    <script src="lib/angular.min.js" charset="utf-8"></script>
+    <script src="lib/angular-ui-router-0.3.1.min.js" charset="utf-8"></script>
+    <script src="src/MenuApp/MenuApp.module.js" charset="utf-8"></script>
+    <script src="src/MenuApp/routes.js" charset="utf-8"></script>
+    <script src="src/MenuApp/categories.controller.js" charset="utf-8"></script>
+    <script src="src/MenuApp/categories.component.js" charset="utf-8"></script>
+    <script src="src/MenuApp/items.controller.js" charset="utf-8"></script>
+    <script src="src/MenuApp/items.component.js" charset="utf-8"></script>
+    <script src="src/data/data.module.js" charset="utf-8"></script>
+    <script src="src/data/menudata.service.js" charset="utf-8"></script>
+    <script src="src/spinner/spinner.module.js" charset="utf-8"></script>
+    <script src="src/spinner/spinner.component.js" charset="utf-8"></script>
+  </body>
+</html>
